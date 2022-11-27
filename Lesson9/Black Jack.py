@@ -36,8 +36,6 @@ while is_game == "y":
         print((f"Твоя итоговая рука:{player}, очков:{score}"))
         print((f"Твоя итоговая рука:{comp}, очков:{score_comp}"))
 
-
-
         if score > 21 and score_comp > 21:
             print("Перелёт у обоих, ничья")
         elif score > 21:
@@ -50,5 +48,3 @@ while is_game == "y":
             print("Победа")
         else:
             print("Поражение")
-
-
